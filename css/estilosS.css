@@ -1,0 +1,97 @@
+@font-face {
+    font-family: Hey-Comic;
+    src: url(hey_comic/Hey-Comic.ttf);
+}
+body{
+    background-color: rgb(0, 0, 0);
+    background-image: url("../imgs/l.webp");
+    background-size:cover;
+    background-position-x: 70%;
+    
+}
+h1{
+    color:red;
+    text-align: center;
+    text-shadow: 0.1em 0.1em #000000    
+}
+h2{
+    color:white;
+    font-size: 20px;
+    text-shadow: 0.1em 0.1em #000000;
+}
+.imgss{
+    text-align: center;
+}
+.texto{
+    /* text-align:; */
+}
+.texto img{
+    width: 20%;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    border:solid 10px #000000;
+}
+.texto p{
+    color:white;
+    font-size: 20px;
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    font-family:Hey-Comic;
+    src:url(hey_comic/Hey-Comic.ttf);
+    text-shadow: 0.1em 0.1em #000000;
+    
+}
+.imag img{
+    width: 20%;
+    border:solid 10px #000000;
+}
+.imag p{
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    vertical-align: top;
+    font-family: Hey-Comic;
+    width: 30%;
+    src:url(hey_comic/Hey-Comic.ttf);
+    text-shadow: 0.1em 0.1em #000000
+    
+}
+.ult img{
+    width: 20%;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    border: solid 10px black;
+}
+.ult p{
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    vertical-align: top;
+    font-family: Hey-Comic;
+    width: 30%;
+    src:url(hey_comic/Hey-Comic.ttf);
+    text-shadow: 0.1em 0.1em #000000
+}
+.menuC{
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    background-color: cyan;
+}
+.menu li{
+    margin-left: 10px;
+    list-style: none;
+}
+.menu a{
+    display: block;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    width: 80px;
+}
